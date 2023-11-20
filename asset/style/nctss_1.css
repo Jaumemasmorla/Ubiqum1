@@ -61,3 +61,14 @@ ul{
     bottom: 123px;
     
 }
+.values {
+    position: absolute;
+    left: 350px;
+    bottom: -1px;
+}
+.values h2{
+    font-size: 1.2em;
+}
+.values p{
+    font-size: 15px;
+}
