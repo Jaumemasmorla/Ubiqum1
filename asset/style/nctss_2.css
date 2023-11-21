@@ -1,27 +1,38 @@
 .container {
     text-align: center;
-    background-color: rgb(40 110 200);
-    color: white;
-    font-size: 28px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 11%;
     margin-top: 1%;
     margin-right: 11%;
-    margin-bottom: 3%;
+    margin-bottom: 0%;
     border-style: solid;
-    border-color: blue;
+    border-color: black;
     border-width: 4px;
+    border-left: solid;
+    border-right: solid;
+    border-top: 17px;
+}
+h1{
+    top: 34px;
+    left: -230px;
+    font-size: 35px;
+    position: relative;
 }
      
-    
-
-.border{
+.border {
     display: block;
-    border-bottom: solid blue 3px;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
     
 }
-
-.container h2.text1 {
+.border img {
+    position: relative;
+    bottom: -11px;
+}
+.container h2.text{
 border: none;
 }
 
@@ -30,37 +41,48 @@ ul{
 }
 
 .logo img{
-    float: right;
+    float: left;
     position: relative;
-    bottom: 107px;
-    right: 55px;
-    
+    bottom: -27px;
+    right: 29px;
 }
+    
+
 
 .navigation{
-    float: left;
     margin: 0 1.5%;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    font-weight: bold;
+    bottom: 467px;
+    float: right;
 }
 .navigation ul.menu{
     position: relative;
     font-size: 20px;
-    left: 90px;
+    left: -135px;
     line-height: 175%;
 }
+li {
+    display: inline;
+    padding: 10px;
+    border: solid blue 2px;
+    background: #1c9ee1;
+}
+
 .menu a{
-    color: #0088ff;
+    color: white;
+    background: #1c9ee1;
+    text-decoration: none;
 }
 .calendar {
     position: relative;
-    float: right;
+    float: left;
     margin-right: 54%;
     font-family: Arial, Helvetica, sans-serif;
-    bottom: 123px;
-    
+    bottom: 60px;
+    left: 50px;
 }
+
 .values {
     position: absolute;
     left: 350px;
