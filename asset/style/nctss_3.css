@@ -119,6 +119,10 @@ li{
     top: 24px;
 }
 
+.main-container{
+    font-size: 19px;
+}
+
 .information{
     position: relative;
     left: 140px;
@@ -127,24 +131,20 @@ li{
 
 .description{
     position: relative;
-    left: -8px;
-    top: -25px;
+    left: -375px;
+    top: -30px;
 }
 
 
-.description title{
-
-}
-
-.description text{
+.description text p{
     font-size: 19px;
 }
 
-.container .information{
+.container-information{
     position: relative;
     left: 140px;
     font-size: 19px;
-    bottom: 45px;
+    bottom: 70px;
 }
 
 .location{
@@ -159,7 +159,7 @@ li{
 .additional {
     position: relative;
     left: 280px;
-    bottom: 80px;
+    bottom: 55px;
     font-size: 19px;
 }
 
