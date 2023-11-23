@@ -29,19 +29,23 @@ h1{
 
 h2{
     font-weight: bold;
-    left: 280px;
-    position:relative;
-    top: 10px;
+    left: 255px;
+    position: relative;
+    top: 30px;
     font-size: 25px;
 }
 
+.hide
+{
+   color: white; 
+}
 
 
 
 .logo img{
     float: left;
     position: relative;
-    bottom: 160px;
+    bottom: 230px;
     right: -40px;
     border: solid blue 3px;
 }
@@ -58,7 +62,7 @@ h2{
     position: relative;
     font-size: 22px;
     left: 50px;
-    bottom: 60px;
+    bottom: 130px;
     line-height: 175%;
     
 }
@@ -90,9 +94,8 @@ li{
     left: -210px;
 }
     
-.hide {
-    display: none;
-}
+
+
 .values {
     position: absolute;
     left: 295px;
@@ -102,6 +105,7 @@ li{
     font-size: 1.5em;
     position: relative;
     left: 0px;
+    top:5px;
     
 }
 .values p{
