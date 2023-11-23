@@ -1,0 +1,111 @@
+.container {
+    
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 30px;
+}
+   
+h1{
+    position: relative;
+    left: 235px;
+    top: 70px;
+}
+
+
+
+    
+
+.container img.border{
+    display: block;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    border: solid blue 3px;
+}
+    
+
+
+h2{
+    font-weight: bold;
+    left: 280px;
+    position:relative;
+    top: 10px;
+    font-size: 25px;
+}
+
+
+
+
+.logo img{
+    float: left;
+    position: relative;
+    bottom: 35px;
+    right: -20px;
+    border: solid blue 3px;
+}
+
+
+.navigation{
+    float: left;
+    margin: 0 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+}
+.navigation ul.menu{
+    position: relative;
+    font-size: 22px;
+    left: 50px;
+    bottom: 125px;
+    line-height: 175%;
+    
+}
+
+
+
+li{
+    display: inline;
+    border-right: 3px solid #0088ff;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+.menu li:last-child{
+    border: none;
+}
+
+
+.menu a{
+    color: #0088ff;
+}
+.calendar {
+    position: relative;
+    float: left;
+    /* margin-right: 54%; */
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: -30px;
+    left: -210px;
+}
+    
+
+.values {
+    position: absolute;
+    left: 350px;
+    bottom: -1px;
+}
+.values h2{
+    font-size: 1.2em;
+}
+.values p{
+    font-size: 15px;
+}
+.contact{
+    font-size: 24px;
+    text-align: justify;
+    position: relative;
+    left: 170px;
+    top: 24px;
+}
