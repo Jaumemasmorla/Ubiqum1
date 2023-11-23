@@ -118,3 +118,52 @@ li{
     left: -600px;
     top: 24px;
 }
+
+.information{
+    position: relative;
+    left: 140px;
+
+}
+
+.description{
+    position: relative;
+    left: -8px;
+    top: -25px;
+}
+
+
+.description title{
+
+}
+
+.description text{
+    font-size: 19px;
+}
+
+.container .information{
+    position: relative;
+    left: 140px;
+    font-size: 19px;
+    bottom: 45px;
+}
+
+.location{
+    
+        position: relative;
+        right: 154px;
+        font-size: 22px;
+        bottom: 5px;
+        margin: none;
+}
+
+.additional {
+    position: relative;
+    left: 280px;
+    bottom: 80px;
+    font-size: 19px;
+}
+
+.additional b{
+    font-size: 22px;
+}
+
