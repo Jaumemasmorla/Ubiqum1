@@ -1,0 +1,158 @@
+
+.container {
+    
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+   
+h1{
+    position: relative;
+    left: 275px;
+    top: 120px;
+    font-size: 40px;
+    left: 292px;
+}
+
+.container img.border{
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border: solid blue 3px;
+}
+    
+
+
+
+    
+h2 {
+    
+    left: 339px;
+    position: relative;
+    top: 100px;
+    font-size: 23px;
+    
+    font-weight: bold;
+}
+.introduction{
+    position: relative;
+    top: 90px;
+    left: 170px;
+}
+
+
+.paragraph{
+    font-size: 19px;
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+
+
+.logo img{
+    float: right;
+    position: relative;
+    bottom: 515px;
+    right: 160px;
+    border: solid blue 3px;
+}
+
+
+.navigation{
+    float: left;
+    margin: 0 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+}
+.navigation ul.menu{
+    position: relative;
+    font-size: 19px;
+    left: 195px;
+    bottom: 440px;
+    line-height: 175%;
+    
+}
+
+
+
+.navigation li{
+    display: inline;
+    border-right: 3px solid #0088ff;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+.menu li:last-child{
+    border: none;
+}
+
+
+.menu a{
+    color: #0088ff;
+}
+
+/* safety-page */
+
+.safety-levels{
+    font-size: 19px;
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    position: relative;
+    left: 100px;
+    bottom: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol, li {
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+li::marker{
+    font-weight: bold;
+}
+
+.level-1 li{
+    
+    list-style-type: decimal;
+    
+}
+
+b{
+    margin-top: 10px;
+}
+
+.level-1 li{
+    margin-bottom: 10px;
+}
+.level-2 li{
+    list-style-type: decimal;
+}
+
+.level-3 li{
+    list-style-type: decimal;
+}
+.level-4 li{
+    list-style-type: upper-latin;
+}
+.level-5 li{
+    list-style-type: decimal;
+}
+.level-6 li{
+    list-style-type: lower-latin;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-right: none;
+  }
