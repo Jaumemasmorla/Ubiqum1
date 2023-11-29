@@ -156,3 +156,20 @@ table, th, td {
     border-collapse: collapse;
     border-right: none;
   }
+
+/* REGISTRATION FORM*/
+.registration-title h2{
+    left: 35px;
+    position: relative;
+    top: 100px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.form{
+    position: relative;
+    bottom: -35px;
+    left: 65px;
+}
+
+

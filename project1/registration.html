@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="/asset/style/nctss_4.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!--title block-->
+            <h1 class="web title">NorCal Time Travel Series</h1>
+            <img class="border" src="../asset/media/car1-3dda6fa4.png" alt="image 1" height="150px" width="150px"> 
+            <h2 class="registration-title">Registration Form</h2>
+            <div class="logo">
+                <img src="../asset/media/LOGO-fc6fecfc.png" alt="logo" height="150px" width="150px">
+            </div>
+        </div>
+
+    </header>
+    <section>
+        <div class="registration">
+            <form action="/project1/show_data.html" method="get" id="registrationform">
+                <label for="first_name">First Name: </label>
+                <input type="text" id="first_name" name="first_name">
+                <label for="last_name">Last Name: </label>
+                <input type="text" id="last_name" name="last_name">
+            <br><br>
+                <label for="street_address">Street Address: </label>
+                <input type="text" id="street_address" name="street_address">
+            <br><br> 
+                <label for="city">City: </label>
+                <input type="text" id="city" name="city">
+            <br><br> 
+                <label for="zip_code">Zip Code: </label>
+                <input type="number" id="zip_code" name="zip_code">
+            <br><br>
+                <label for="age">Age: </label>
+                <input type="number" id="age" name="age">
+            <br><br>
+            
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" form="registrationform">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+                
+            <br><br>
+                <label for="phone">Contact Phone: </label>
+                <input type="tel" id="phone" name="phone">
+            <br><br>
+                <label for="email">Contact Email: </label>
+            <br><br>
+                <input type="text" id="email" name="email">
+                
+            <br><br>
+            <!--hacer los dropdown menus-->
+            <label for="membership">Motorsports Organization Membership?</label>
+                <details>
+                    <summary> </summary>
+                    <ul>
+                        <li>
+                            <label><input type="checkbox" name="membership" value="SCCA" />Sports Car Club of America (SCCA)</label>
+                            
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="membership" value="NASA" />National Autosport Association (NASA)</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="membership" value="none" />None</label>
+                        </li>
+                    </ul>
+                </details>
+            <br><br>
+            <label for="experience">Previous Competitive Experience</label>
+            <br><br>
+                
+            <select id="experience" name="experience" form="registrationform">
+                <option value="none">None</option>
+                <option value="HPDE">HPDE/Track Days</option>
+                <option value="autocross">Autocross</option>
+                <option value="1yr">One Year</option>
+                <option value="2yrs">Two Years</option>
+                <option value="+2yrs">Over two years</option>
+                
+            </select>
+            <br><br>
+            <label for="license">Racing License</label>
+            <br><br>
+            <details>
+                <summary> </summary>
+                <ul>
+                    <li>
+                        <label><input type="checkbox" name="license" value="none" />None</label>
+                        
+                    </li>
+                    <li>
+                        <label><input type="checkbox" name="license" value="SCCA" />SCCA</label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox" name="license" value="NASA" />NASA</label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox" name="license" value="FIA" />FIA</label>
+                    </li>
+                </ul>
+            </details>
+        <br><br>
+            <!--END hacer los dropdown menus-->
+            <p>I agree that I will abide by all the rules of the NorCal Time Trial Series (NCTTS). I recognize that Motorsports are inherently <br>dangerous. I hereby release, discharge, and/or otherwise indemnify NCTTS, their employees and associated personnel and <br>volunteers, including the facilities used for events, against any claim by or on behalf of the registrant as a result of my participation in <br>the series.</p>
+            <p>By writing your name below below, I hereby agree and authorize the above.</p>
+            <br><br>
+            
+                <label for="registrant-name">Registrant's Name: </label>
+                <input type="text" id="registrant-name" name="registrant-name">
+                <label for="date">Date: </label>
+                <input type="date" id="date" name="date">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+            
+
+        </div>
+    </section>
+   
+    
+     <aside>      
+         <nav class="navigation">
+            <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="info.html">General Information</a></li>
+                    <li><a href="safety.html">Safety Rules</a></li>
+                    <li><a href="registration.html">Sign Up!</a></li>
+            </ul> 
+        </nav>
+    </aside>
+        
+</body>
+</html>
