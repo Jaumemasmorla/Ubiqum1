@@ -71,13 +71,12 @@ h2 {
 }
 .navigation ul.menu{
     position: relative;
-    font-size: 19px;
+    font-size: 22px;
     left: 195px;
-    bottom: 440px;
+    bottom: 1100px;
     line-height: 175%;
     
 }
-
 
 
 .navigation li{
@@ -166,10 +165,32 @@ table, th, td {
     font-weight: bold;
 }
 
-.form{
+form{
     position: relative;
     bottom: -35px;
     left: 65px;
 }
+input{
+    border: none;
+    border-bottom: solid 1px;
+}
 
 
+summary{
+    display: block;
+}
+
+ul{
+    position: relative;
+    left: -45px;
+}
+
+
+label input[type='checkbox']{
+    width: 10px;
+}
+
+
+li::marker{
+
+}
