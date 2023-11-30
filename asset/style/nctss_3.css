@@ -25,7 +25,16 @@ h1{
     border: solid blue 3px;
 }
     
+.description title b{
+    font-size: 25px;
+    position: relative;
+    left: -110px;
+}
 
+.description text i{
+    position: relative;
+    left: 360px;
+}
 
 h2{
     font-weight: bold;
