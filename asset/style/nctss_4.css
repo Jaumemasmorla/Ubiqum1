@@ -61,23 +61,60 @@ h2 {
 
 
 .navigation{
-    float: left;
+    
     margin: 0 1.5%;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     font-weight: bold;
-}
-.navigation ul.menu{
-    position: relative;
     font-size: 22px;
-    left: 195px;
-    bottom: 950px;
+    left: 250px;
+    bottom: 470px;
     line-height: 175%;
+}
+
+.navigation-registration{
+    margin: 0 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+    font-size: 22px;
+    left: 250px;
+    bottom: 955px;
+    line-height: 175%;
+}
+
+.menu ul{
     
+    margin: 0 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+    font-size: 22px;
+    left: 250px;
+    bottom: 470px;
+    line-height: 175%;
+}
+
+.menu-navigation-registration ul{
+    margin: 0 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+    font-size: 22px;
+    left: 250px;
+    bottom: 470px;
+    line-height: 175%;
 }
 
 
 .navigation li{
+    display: inline;
+    border-right: 3px solid #0088ff;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.menu-navigation-registration li{
     display: inline;
     border-right: 3px solid #0088ff;
     padding-left: 5px;
@@ -89,8 +126,16 @@ h2 {
     border: none;
 }
 
+.menu-navigation-registration li:last-child{
+    border: none;
+}
+
 
 .menu a{
+    color: #0088ff;
+}
+
+.menu-navigation-registration a{
     color: #0088ff;
 }
 
